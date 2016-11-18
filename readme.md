@@ -88,6 +88,17 @@ cd src
 strip gamecreditsd
 ```
 
+### If Ubuntu >= 16.04 (libboost=1.58)
+```
+cd GameCredits
+git checkout ubuntu16.04
+./autogen.sh
+./configure CXXFLAGS="$CXXFLAGS -DBOOST_VARIANT_USE_RELAXED_GET_BY_DEFAULT=1 -fPIC" --with-incompatible-bdb
+make
+cd src
+strip gamecreditsd
+```
+
 ###Add a user and move gamecreditsd
 ```
 adduser gamecredits && usermod -g users gamecredits && delgroup gamecredits && chmod 0701 /home/gamecredits
