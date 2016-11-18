@@ -45,7 +45,7 @@ submitter will be asked to start a discussion (if they haven't already) on the
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
+match the project's coding conventions (see [doc/coding.md](https://github.com/gamecredits-project/GameCredits/blob/master/doc/coding.md)) or are
 controversial.
 
 #Compiling the GameCredits daemon from source on Debian
