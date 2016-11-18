@@ -1,0 +1,17 @@
+test/
+*.o
+src/
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+db-4.8.30.NC.tar.gz
+db-4.8.30.NC/
+db4/
+qa/pull-tester/build-tests.sh
+qa/pull-tester/run-gamecreditsd-for-test.sh
+share/qt/Info.plist
+share/setup.nsi
